@@ -1,0 +1,63 @@
+body {
+  background-color: rgba(162, 210, 242, 0.984);
+}
+
+hr { 
+  border: 10px double #385e5e;
+
+  width: 100%;
+}
+
+
+h1 {
+  color:rebeccapurple;
+  font-size: 50pt;
+  font-family:Helvetica, sans-serif;
+}
+
+h2 {
+  color:#385e5e;
+}
+
+h3 {
+  color:#385e5e;
+}
+ h4 {
+  color:#385e5e;
+ }
+
+
+ /*************Class Selectors**************/
+ /* can use more than 1 in a single element*/
+
+ .toprightphoto1 {
+  background-color: rgba(162, 210, 242, 0.984);
+  height: 40px;
+  float: right;
+ }
+ 
+ .toprightphoto2 {
+  background-color: rgba(162, 210, 242, 0.984);
+  height: 40px;
+  float: right;
+ }
+
+ /***********margin->border->padding->height->content**************/
+ .photo1 {
+  border:5px solid  #385e5e;
+  border-radius: 100px;
+  
+ }
+
+
+ /************ID SELECTORS******************/
+ /*only 1 in a single element*/ 
+/* will override the tags selectors*/ 
+/* only use in a single tags in a website*/
+ #heading {
+  color:#385e5e;
+  padding: 10px;
+  background-color: rgb(172, 207, 207);
+  border: rgb(162, 210, 242, 0.984);
+  border-radius: 25px;
+ }
